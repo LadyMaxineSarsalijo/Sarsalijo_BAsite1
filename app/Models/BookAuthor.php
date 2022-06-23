@@ -10,7 +10,7 @@ class BookAuthor extends Model{
 
 // column sa table
    protected $fillable = [
-       'id','fullname', 'gender', 'birthday',
+       'fullname', 'gender', 'birthday',
    ];
 
    public $timestamps = false;
